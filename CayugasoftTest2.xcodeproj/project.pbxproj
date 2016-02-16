@@ -12,6 +12,7 @@
 		1138A2891C73B85B009B14A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1138A2871C73B85B009B14A5 /* Main.storyboard */; };
 		1138A28B1C73B85B009B14A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1138A28A1C73B85B009B14A5 /* Assets.xcassets */; };
 		1138A28E1C73B85B009B14A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1138A28C1C73B85B009B14A5 /* LaunchScreen.storyboard */; };
+		11E4B10B1C73B8BB00496D57 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4B10A1C73B8BB00496D57 /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1138A28A1C73B85B009B14A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1138A28D1C73B85B009B14A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1138A28F1C73B85B009B14A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E4B10A1C73B8BB00496D57 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1138A2831C73B85B009B14A5 /* AppDelegate.swift */,
 				1138A2851C73B85B009B14A5 /* ViewController.swift */,
+				11E4B10A1C73B8BB00496D57 /* GraphView.swift */,
 				1138A2871C73B85B009B14A5 /* Main.storyboard */,
 				1138A28A1C73B85B009B14A5 /* Assets.xcassets */,
 				1138A28C1C73B85B009B14A5 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				1138A2861C73B85B009B14A5 /* ViewController.swift in Sources */,
 				1138A2841C73B85B009B14A5 /* AppDelegate.swift in Sources */,
+				11E4B10B1C73B8BB00496D57 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				1138A2941C73B85B009B14A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

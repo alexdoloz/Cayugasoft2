@@ -9,10 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var graphView: GraphView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        graphView.f = { 0.01 * $0 * $0 }
     }
 
     override func didReceiveMemoryWarning() {
